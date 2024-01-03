@@ -1,0 +1,14 @@
+{
+    "subscriptions":[
+        {
+            "url": "https://rss.nytimes.com/services/xml/rss/nyt/%s.xml",
+            "urlParams": ["Business", "Technology"],
+            "urlType": "nyt"
+        },
+        {
+            "url": "https://www.reddit.com/r/%s/hot/.json?count=100",
+            "urlParams": ["Marketing", "Sales", "Entrepreneur", "Startups"],
+            "urlType": "reddit"
+        }
+    ]
+}
